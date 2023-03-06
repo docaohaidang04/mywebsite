@@ -1,0 +1,549 @@
+
+.left-column {
+    width: 25%;
+    height: 150px;
+    background: #ddd;
+    float: left;
+    border-right: 3px black;
+    width: 250px;
+    position: fixed;
+   
+}
+.right-column { 
+    width: 75%;
+    height: 95%;
+    float: right;
+    overflow-x: visible;
+    overflow-y:auto;
+    
+    
+}   
+.container > aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+        
+}
+.right-column img{
+    width: 1200px;
+    
+}
+.left-column img{
+    width: 300px;
+    
+}
+.vmenu{
+    right: 30px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-shadow: 0 0 2px gray;
+    width:250px;
+    height:400px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    font-family: sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    
+}
+.vmenu a{
+    background: url('bullet_hover.gif') no-repeat /* khong lap lai hinh anh */10px center;
+    display: block;
+    color: black;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 20px 10px 20px 30px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    overflow-x: visible;
+}
+.vmenu a:hover{
+    background: url('bullet.png') no-repeat 10px center;
+    text-decoration: underline;
+    background-color:ghostwhite ;
+    color:aqua; /* khi dua chuot len se doi chu thanh mau trang */
+    font-weight: bold; /*khi dua chuot len chu se to ra */
+}
+.left-column>.icon{
+    position: absolute;
+    left: 10px;
+    bottom: 270px;
+    
+    
+}
+.icon>img{
+    width: 30px;
+}
+.user>img{
+    right: 50px;
+    top: 50px;
+    width: 30px;
+    margin-right: 15px;
+    padding: 7px;  
+}
+.user img:hover{
+    transform: scale(1.2, 1.2);
+}
+.san-pham-to >img{
+    width: 600px;
+    padding: 7px;
+}
+.san-pham-nho>img{
+    width: 250px;
+
+}
+.balo {
+    position: relative;
+    bottom: 670px;
+    left: 620px;
+}
+.tuideo{
+    position: relative;
+    bottom: 670px;
+    left: 630px;    
+}
+.non{
+    position: relative;
+    bottom: 390px;
+    right: -110px; 
+}
+.daynich{
+    position: relative;
+    bottom: 390px;
+    right: -120px; 
+}
+.tuade{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    
+}
+.tuade a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+}
+.tuade>a:hover{ 
+    color: aqua;
+    
+}
+.san-pham-nho img:hover{
+    box-shadow: 0 0 15px 0 black;
+}
+.san-pham-to img:hover{
+    box-shadow: 0 0 15px 0 black;
+}
+.hotline >img{
+    width: 53px;
+}
+.sdt{
+    border: 1px solid black;
+    position: relative;
+    bottom: 51px;
+    left: 39px;
+    
+    width: 200px;
+    height: 40px;
+    background-color: black;
+}
+.sdt >a{
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 43px;
+    top: 10px;
+    font-size:large;
+    text-decoration: none;  
+}
+.sdt a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+.left-column>.icon-bot{
+    position: absolute;
+    left: 10px;
+    top: 750px;
+    
+    
+}
+.icon-bot>img{
+    width: 30px;
+    padding: 10px;
+}
+.icon-bot img:hover{
+    transform: scale(1.2, 1.2);
+}
+.cham >img{
+    width: 30px;
+    position: relative;
+    left: 600px;
+}
+.san-pham img{
+    max-width: 60%;
+}
+.san-pham .gia{
+    color:black;
+    font-weight: bold;
+    font-size: larger;
+}
+.san-pham{  
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 50%;
+    
+    
+}
+.sanpham1{
+    position: relative;
+    bottom: -50px;
+    right: 65px;
+    width: 500px;
+}
+.sanpham2{
+    position: relative;
+    bottom: 525px;
+    right: -300px;
+    width: 500px;
+}
+.sanpham3{
+    position: relative;
+    bottom: 1115px;
+    right: -610px;
+    width: 500px;
+}
+.sanpham4{
+    position: relative;
+    bottom: 1050px;
+    right: 65px;
+    width: 500px;
+}
+.sanpham5{
+    position: relative;
+    bottom: 1620px;
+    left: 290px;
+    width: 500px;
+}
+.sanpham6{
+    position: relative;
+    bottom: 2195px;
+    left: 610px;
+    width: 500px;
+}
+.tuadebot {
+    text-decoration: none;
+    font-family: Arial;
+    position: relative;
+    bottom: 2200px;
+    left: 500px;
+    font-size: 150%;
+    
+}
+.anhfooter{
+    position: relative;
+    bottom: 2250px;
+}
+.anhnen{
+    position: relative;
+    bottom: 2200px;
+}
+.diachi{
+    position: relative;
+    bottom: 2400px;
+    left: 400px;
+    height: 50px;
+    width: 400px;
+    border: 3px solid white;
+    text-align: center;
+    background: orange ;
+    line-height: 50px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(251, 123, 4, 0.459);
+}
+.anhbotfooter{
+    position: relative;
+    bottom: 2259px;
+   
+}
+.anhbotfooter > img{
+    height: 500px;
+}
+.top1{
+    position: relative;
+    bottom: 2700px;
+    left: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    text-decoration: none;
+}
+.sdttop1{
+    color: orange;
+}
+.email1 a{
+    text-decoration: none;
+    color: white;   
+}
+.email1 a:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua ;
+}
+.top2{
+    position: relative;
+    bottom: 2770px;
+    left: 250px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    text-decoration: none;
+}
+.sdttop2{
+    color: orange;
+}
+
+.email2 a{
+    text-decoration: none;
+    color: white;   
+}
+.email2 a:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua ;
+}
+.top3{
+    position: relative;
+    bottom: 2825px;
+    left: 550px;
+    color:white;
+    font-size: 15px;
+    font-family: Arial;
+    text-decoration: none;
+}
+.top3nho a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    padding-bottom: 5px; 
+    font-size: 12px;
+}
+.top3nho a:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua ;
+}
+.td a {
+    color: aqua;
+}
+.top4{
+    position: relative;
+    bottom: 2930px;
+    left: 675px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    text-decoration: none;
+}
+.top4nho a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    padding-bottom: 5px; 
+    font-size: 12px;
+}
+.top4nho a:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua ;
+}
+.top5{
+    position: relative;
+    bottom: 3037px;
+    left:  850px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    text-decoration: none;
+}
+.top5nho a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    padding-bottom: 5px; 
+    font-size: 12px;
+}
+.top5nho a:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua ;
+}
+.form-control{
+    width: 25%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+}
+.center label{
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+}
+.center{
+    position: relative;
+    bottom: 2900px;
+    left: 20px;
+}
+.buttonright{
+    position: relative;
+    left: 290px;
+    bottom: 50px;
+}
+.buttonright a{
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+}
+.form-button{
+    background-color: black;
+}
+.center2 label{
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+}
+.center2{
+    position: relative;
+    bottom: 3010px;
+    left: 400px;
+}
+.buttonleft{
+    position: relative;
+    left: 355px;
+    bottom: 24px;
+}
+.buttonleft a{
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+}
+.form-button{
+    background-color: black;
+}
+.form-control2{
+    width: 35%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.botfooter{
+    position: relative;
+    bottom: 2950px;
+    left: 20px;
+    color: white;
+    font-family: Arial;
+}
+.tuadetrangcon1{
+    position: relative;
+    left: 555px;
+    font-size: 25px;
+    font-family: Arial;
+}
+.menutrangcon1{
+    position: relative;
+    right: 100px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 15px;
+    font-family: Arial;
+    padding: 10px;
+    line-height: 30px;
+    word-spacing: 5px;
+    
+}
+.menutrangcon1 a{
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+}
+.footer{
+    position: relative;
+    top: 300px;
+}
+.duoituade{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    border-bottom: 1px solid black;
+    border-spacing: 10px 30px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+.duoituade a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+
+}
+.duoituade a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+.iconloc img{
+ width: 50px;
+}
+.iconloc {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.loc{
+    position: relative;
+    bottom: 35px;
+    left: 55px;
+}
+.loc a{
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+}
+.xem{
+    position: relative;
+    bottom: 25px;
+    left: -40px;
+}
+.xem a{
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+}
+.iconxem img{
+    width: 50px;
+   }
+.iconxem {
+       position: relative;
+       top: -10px;
+       left: 700px;
+   }
+.sapxeptheo {
+    position: relative;
+    bottom: 55px;
+    left: 770px;
+}
+.form-control{
+    position: relative;
+    left: 95px;
+    bottom: 25px;
+    width: 20%;
+}
+.xemvaloc{
+    border-bottom: 1px solid black;
+}
